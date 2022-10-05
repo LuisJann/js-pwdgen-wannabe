@@ -7,8 +7,8 @@ Infine scrivi sulla pagina nomecognomecolorepreferito21*/
 const userName = prompt("Quale è il tuo nome?");
 console.log(userName);
 
-const userSecondName = prompt("Quale è il tuo cognome?");
-console.log(userSecondName);
+const userLastName = prompt("Quale è il tuo cognome?");
+console.log(userLastName);
 
 const userColor = prompt("Quale è il tuo colore preferito?");
 console.log(userColor);
@@ -16,7 +16,7 @@ console.log(userColor);
 
 // ELABORAZIONE
 
-const userPw = userName + userSecondName + userColor + "21";
+const userPw = userName + userLastName + userColor + "21";
 console.log(userPw);
 
 // OUTPUT
